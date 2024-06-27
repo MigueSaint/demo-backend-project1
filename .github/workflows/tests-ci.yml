@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Install dependencies
-        uses: npm install
+        run: npm install
 
       - name: Run tests
-        uses: npm test
+        run: npm test
